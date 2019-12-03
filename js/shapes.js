@@ -13,9 +13,9 @@ const sayHello = function() {
 /*
  * Exercise 2.
  */
-
+ 
 const drawRectangle = function() {
-    
+
 };
 
 /*
@@ -23,7 +23,7 @@ const drawRectangle = function() {
  */
 
 const drawColoredRectangle = function() {
-    
+
 };
 
 /*
@@ -31,7 +31,7 @@ const drawColoredRectangle = function() {
  */
 
 const drawTriangle = function() {
-    
+
 };
 
 /*
@@ -39,7 +39,7 @@ const drawTriangle = function() {
  */
 
 const drawFace = function() {
-    
+
 };
 
 /*
@@ -47,5 +47,5 @@ const drawFace = function() {
  */
 
 const drawPyramid = function() {
-    
+
 };
