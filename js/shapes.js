@@ -20,6 +20,12 @@ window.onload = function() {
 
     document.getElementById("hello").onclick = sayHello;
 }
+document.querySelector('#student-canvas-1').addEventListener('click', promptME);
+function promptMe() {
+    var userAdjective = prompt("Member:");
+    alert (userAdjective);
+}
+
 
 /*
  * Exercise 1.
