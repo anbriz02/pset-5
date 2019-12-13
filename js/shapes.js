@@ -233,7 +233,3 @@ const drawFace = function() {
 /*
  * Exercise 6 (extra credit).
  */
-
-const drawPyramid = function() {
-    // write your exercise 5 code here
-};
