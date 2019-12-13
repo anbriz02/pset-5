@@ -101,7 +101,7 @@ const drawRectangle = function() {
         if (Number(width) + Number(x) > 1024 || Number(height) + Number(y) > 512) {
             alert("Your rectangle won't fit on the canvas.")
         }
-    } while (isNaN(height) || isNaN(width) || isNaN(y) || isNaN(x) || Number(width) + Number(x) > 1024 || Number(height) + Number(y) > 512 || width > 1024 || width < 1 || height > 512 || height < 1 || x < 1 || x > 1024 || y < 1 || y > 512)
+    } while (width > 1024 || width < 1 || height > 512 || height < 1 || x < 1 || x > 1024 || y < 1 || y > 512 || isNaN(width) || isNaN(height) || isNaN(x) || isNaN(y) || Number(width) + Number(x) > 1024 || Number(height) + Number(y) > 512)
 
     if (!(width == null) && !(height == null) && !(x == null) && !(y == null)) {
         ctx.beginPath();
